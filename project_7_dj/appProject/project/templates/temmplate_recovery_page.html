@@ -1,0 +1,13 @@
+{% autoescape off %}
+<div style="background-color: #fcacfc; padding: 5px; border-radius: 10px;">
+Dear {{ user }}. A password reset request has been sent to your email. If it wasn't you, then just ignore this message.
+
+If it was you, then copy the code below and follow the link.
+
+<h1> {{ message }} </h1>
+
+You can change your password here: {{ domain }}
+
+<h5>Thanks for choose us</h5>
+</div>
+{% endautoescape %}
